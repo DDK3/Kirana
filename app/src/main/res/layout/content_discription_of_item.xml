@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_discription_of_item"
+    tools:context="com.example.pratik.kirana.DiscriptionOfItemActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewDescriptionActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/textViewDescription"
+            android:textSize="30sp"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutForTextViews"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/textViewDescriptionActivity"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewDescriptionOne"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="@string/textViewDESC1"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewDescriptionTwo"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="@string/textViewDESC2"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewDescriptionThree"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="@string/textViewDESC3"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewDescriptionFour"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="@string/textViewDESC4"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewDescriptionFive"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="@string/textViewDESC5"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutForSpinner"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_below="@id/textViewDescriptionActivity"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerDescriptionOne"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_style"
+                android:entries="@array/area"
+                android:paddingLeft="4dp"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerDescriptionTwo"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_style"
+                android:entries="@array/area"
+                android:paddingLeft="4dp"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerDescriptionThree"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_style"
+                android:layout_marginTop="20dp"
+                android:entries="@array/area"
+                android:paddingLeft="4dp"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerDescriptionFour"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_style"
+                android:layout_marginTop="20dp"
+                android:entries="@array/area"
+                android:paddingLeft="4dp"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerDescriptionFive"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_style"
+                android:layout_marginTop="20dp"
+                android:entries="@array/area"
+                android:paddingLeft="4dp"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewOfFullDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/linearLayoutForTextViews"/>
+
+        <Button
+            android:id="@+id/buttonCheckDescriptionInDescriptionActivity"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/textViewOfFullDescription"
+            android:background="@drawable/button_style"
+            android:layout_marginBottom="30dp"
+            android:layout_alignLeft="@id/linearLayoutForTextViews"
+            android:layout_alignStart="@id/linearLayoutForTextViews"
+            android:text="@string/textViewCheckDescription" />
+
+        <Button
+            android:id="@+id/buttonSubmitInDescriptionActivity"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_style"
+            android:text="@string/buttonSubmitInDescriptionActivity"
+            android:layout_marginBottom="25dp"
+            android:layout_alignTop="@+id/buttonCheckDescriptionInDescriptionActivity"
+            android:layout_alignRight="@+id/linearLayoutForSpinner"
+            android:layout_alignEnd="@+id/linearLayoutForSpinner"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

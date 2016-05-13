@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pratik.kirana.Choose"
+    tools:showIn="@layout/activity_choose">
+
+    <ImageView
+        android:id="@+id/imageViewRetailer"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/imageViewRetailer"
+        android:src="@drawable/retailer" />
+
+    <TextView
+        android:id="@+id/textViewRetailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewRetailer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/textViewRetailer"
+        android:textColor="#ffbf00"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textViewCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/textViewCustomer"
+        android:textColor="#ffbf00"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageViewCustomer"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/textViewCustomer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/imageViewCustomer"
+        android:src="@drawable/d" />
+
+</RelativeLayout>

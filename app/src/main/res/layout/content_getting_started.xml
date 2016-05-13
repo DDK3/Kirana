@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pratik.kirana.GettingStarted"
+    tools:showIn="@layout/activity_getting_started">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutActivityGettingStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1a0000"
+        android:paddingBottom="25dp">
+
+        <ImageView
+            android:id="@+id/imageViewKiranaIcon"
+            android:layout_width="70dp"
+            android:contentDescription="@string/imageViewKirana"
+            android:layout_height="100dp"
+            android:src="@drawable/bld120683"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/view"
+            android:layout_alignStart="@+id/view" />
+
+        <TextView
+            android:id="@+id/textViewKirana"
+            style="@style/Heading"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/kirana" />
+
+        <View
+            android:layout_width="280dp"
+            android:layout_height="3dp"
+            android:layout_below="@id/textViewKirana"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/holo_green_dark"
+            android:id="@+id/view" />
+
+        <ImageView
+            android:id="@+id/imageViewKirana"
+            android:layout_width="280dp"
+            android:layout_height="230dp"
+            android:layout_below="@id/textViewKirana"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/imageViewKirana"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/i12" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            style="@style/normalTextView"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewKirana"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:padding="10dp"
+            android:text="KIRANA   is   an   application   which  makes direct   interaction  between  local   retailers  and  customers.   It   will  helps  to  increase  the   business    space   of    local    retailers.   It      will      helps       to       customer       for     getting     information       about      products     in     the     shoppee    and    their    prizes." />
+
+        <Button
+            android:id="@+id/buttonGettingStarted"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/textViewDescription"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_style"
+            android:text="@string/buttongettingstarted"
+            android:textColor="#1a0000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</ScrollView>

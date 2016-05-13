@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_item_details_retailer"
+    tools:context="com.example.pratik.kirana.ItemDetailsRetailerActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="100dp">
+
+        <TextView
+            android:id="@+id/textViewDescriptionOfItemInItemDetailsRetailer"
+            style="@style/textViewLoginPages"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:text="@string/textViewdescriptionOfItem" />
+
+        <ImageView
+            android:id="@+id/imageViewInItemDetailsRetailer"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:contentDescription="@string/imageView"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/textViewDescriptionOfItemInItemDetailsRetailer"
+            android:src="@drawable/bluetooth" />
+
+        <TextView
+            android:id="@+id/textViewNameInItemDetailsRetailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignRight="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignEnd="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignStart="@id/imageViewInItemDetailsRetailer"
+            android:gravity="center"
+            android:text="@string/ItemName"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:textColor="#cc0000"
+            android:textSize="16sp"
+            android:layout_marginRight="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_below="@id/imageViewInItemDetailsRetailer"/>
+
+        <TextView
+            android:id="@+id/textViewBrandInItemDetailsRetailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewBrandOfItem"
+            android:layout_alignLeft="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignRight="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignStart="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignEnd="@id/imageViewInItemDetailsRetailer"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:textSize="16sp"
+            android:textColor="#cc0000"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textViewNameInItemDetailsRetailer"/>
+
+        <Button
+            android:id="@+id/buttonUpdateItem"
+            android:layout_width="145dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/textViewBrandInItemDetailsRetailer"
+            android:layout_marginTop="20dp"
+            android:textColor="#800000"
+            android:layout_alignLeft="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignStart="@id/imageViewInItemDetailsRetailer"
+            android:background="#ff9900"
+            android:text="@string/textViewUpdate"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/buttonDeleteItem"
+            android:layout_width="145dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/textViewBrandInItemDetailsRetailer"
+            android:layout_toRightOf="@id/buttonUpdateItem"
+            android:layout_toEndOf="@id/buttonUpdateItem"
+            android:layout_marginTop="20dp"
+            android:textColor="#800000"
+            android:background="#ff9900"
+            android:layout_alignRight="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignEnd="@id/imageViewInItemDetailsRetailer"
+            android:text="@string/textViewDelete"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/textViewDescri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewDesc"
+            android:textSize="22sp"
+            style="@style/descriptionActivity"
+            android:layout_below="@id/buttonUpdateItem"
+            android:layout_alignLeft="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignRight="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignEnd="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignStart="@id/imageViewInItemDetailsRetailer"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/textViewDescriptionInItemDetailsRetailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descTextView"
+            android:textSize="16sp"
+            android:layout_alignLeft="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignStart="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignEnd="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignRight="@id/imageViewInItemDetailsRetailer"
+            style="@style/smallDescriptionActivity"
+            android:layout_below="@id/textViewDescri"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewPrice"
+            android:textSize="22sp"
+            android:layout_alignRight="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignLeft="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignEnd="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignStart="@id/imageViewInItemDetailsRetailer"
+            style="@style/descriptionActivity"
+            android:layout_below="@id/textViewDescriptionInItemDetailsRetailer"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/textViewPriceInItemDetailsRetailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textSize="16sp"
+            style="@style/smallDescriptionActivity"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textViewPrice"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewArea"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewAreaOfRetailer"
+            android:textSize="22sp"
+            style="@style/descriptionActivity"
+            android:layout_alignRight="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignLeft="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignEnd="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignStart="@id/imageViewInItemDetailsRetailer"
+            android:layout_below="@id/textViewPriceInItemDetailsRetailer"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/textViewAreaInItemDetailsRetailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewArea"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            style="@style/smallDescriptionActivity"
+            android:layout_below="@id/textViewArea"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewMakeCallToRetailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_alignLeft="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignRight="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignStart="@id/imageViewInItemDetailsRetailer"
+            android:layout_alignEnd="@id/imageViewInItemDetailsRetailer"
+            style="@style/descriptionActivity"
+            android:layout_below="@id/textViewAreaInItemDetailsRetailer"
+            android:text="@string/textViewMakeCallToRetailer"/>
+
+        <TextView
+            android:id="@+id/textViewNumberOfRetailerInItemDetailsRetailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#3333ff"
+            style="@style/smallDescriptionActivity"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textViewMakeCallToRetailer"
+            android:text="@string/textViewNumberOfRetailer"/>
+
+    </RelativeLayout>
+    
+</ScrollView>

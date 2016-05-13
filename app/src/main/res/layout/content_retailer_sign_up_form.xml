@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pratik.kirana.RetailerSignUpForm"
+    android:background="@drawable/bc4"
+    tools:showIn="@layout/activity_retailer_sign_up_form">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textViewRetailerSignUpHeading"
+            style="@style/textViewLoginPages"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/textViewSignUpRetailerHeading" />
+
+        <EditText
+            android:id="@+id/editTextFirstNameRetailerSignUp"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="@string/textViewFirstName"
+            android:inputType="text"
+            android:textColorHint="#330019" />
+
+        <EditText
+            android:id="@+id/editTextLastNameRetailerSignUp"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="@string/textViewLastName"
+            android:inputType="text"
+            android:textColorHint="#330019" />
+
+        <EditText
+            android:id="@+id/editTextUsernameRetailerSignUp"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="@string/textViewUsername"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#330019" />
+
+        <EditText
+            android:id="@+id/editTextPasswordRetailerSignUp"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="@string/textViewPassword"
+            android:inputType="textPassword"
+            android:textColorHint="#330019" />
+
+        <TextView
+            android:id="@+id/textViewPasswordRetailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#ffff00"/>
+
+        <EditText
+            android:id="@+id/editTextReTypePasswordRetailerSignUp"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="@string/textViewReTypeThePassword"
+            android:inputType="textPassword"
+            android:textColorHint="#330019" />
+
+        <EditText
+            android:id="@+id/editTextMobileNoRetailerSignUp"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="@string/textViewEnterMobileNo"
+            android:inputType="number"
+            android:textColorHint="#330019" />
+
+        <EditText
+            android:id="@+id/editTextDateOfBirthRetailerSignUp"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_style"
+            android:focusable="false"
+            android:hint="@string/editTextHintDateOfBirth"
+            android:inputType="date"
+            android:textColorHint="#330019" />
+
+        <Spinner
+            android:id="@+id/spinnerViewAreaRetailerSignUp"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_style"
+            android:entries="@array/area"
+            android:paddingEnd="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingStart="4dp" />
+
+        <Button
+            android:id="@+id/buttonSubmitRetailerSignUp"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_style"
+            android:text="@string/buttonTextSubmitCustomerSignUp" />
+    </LinearLayout>
+
+</ScrollView>

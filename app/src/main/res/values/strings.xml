@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">Kirana</string>
+    <string name="action_settings">Settings</string>
+    <string name="textViewWelcomeToKirana">Welcome To Kirana</string>
+    <string name="title_activity_getting_started">GettingStarted</string>
+    <string name="imageViewKirana">KIRANA</string>
+    <string name="kirana">KIRANA</string>
+    <string name="buttongettingstarted">Getting Started</string>
+    <string name="imageViewRetailer">Retailer Image</string>
+    <string name="textViewRetailer">RETAILER</string>
+    <string name="title_activity_choose">Choose</string>
+    <string name="textViewCustomer">CUSTOMER</string>
+    <string name="imageViewCustomer">Customer Image</string>
+    <string name="title_activity_customer_login_form">CustomerLoginForm</string>
+    <string name="textViewLoginPageHeading">LOGIN PAGE</string>
+    <string name="hintUsernameRetailer">Username</string>
+    <string name="hintPasswordRetailer">Password</string>
+    <string name="buttonLoginRetailer">LOGIN</string>
+    <string name="textViewNewToKirana"> New to KIRANA?? \t || </string>
+    <string name="textViewSignUpRetailer"> Sign Up here </string>
+    <string name="textViewSignUpRetailerHeading"> SIGN  UP  PAGE </string>
+    <string name="textViewFirstName">First Name </string>
+    <string name="textViewLastName">Last Name </string>
+    <string name="textViewUsername">Username </string>
+    <string name="textViewPassword">Password </string>
+    <string name="textViewReTypeThePassword">Re-type Password </string>
+    <string name="textViewEnterMobileNo">Mobile No.  </string>
+    <string name="editTextHintDateOfBirth">Date of Birth </string>
+    <string name="editTextHintAddress">Enter your Address </string>
+    <string name="buttonTextSubmitCustomerSignUp"> Submit </string>
+    <string name="imageViewOnLoginPageCustomer">Image view on login page customer</string>
+
+
+    <string-array name="area">
+        <item>Select your Area</item>
+        <item>Alibag</item>
+        <item>Jaypur</item>
+        <item>Lakshman Nagar</item>
+        <item>Mahad</item>
+        <item>Mangaon</item>
+        <item>Murud</item>
+    </string-array>
+    <string name="title_activity_retailer_login_form">RetailerLoginForm</string>
+    <string name="title_activity_customer_sign_up_form">CustomerSignUpForm</string>
+    <string name="title_activity_retailer_sign_up_form">RetailerSignUpForm</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_tabbedactivity">Tabbedactivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="title_activity_grid_main">GridMainActivity</string>
+    <string name="ImageViewForFirstGridLayout">Image View For First Grid Layout</string>
+    <string name="textViewForFirstGridLayout">Computers and Laptops</string>
+    <string name="title_activity_grid_sub_layout">GridSubLayout</string>
+    <string name="title_activity_list_customer">ListCustomerActivity</string>
+    <string name="title_activity_list_retailer">ListRetailerActivity</string>
+    <string name="title_activity_add_item">AddItemActivity</string>
+    <string name="textViewAddItem">ADD\t ITEM</string>
+    <string name="imageViewInAddItemActivity">Image View in Add Item Activity</string>
+    <string name="hintEditTextEnterPriceOfItemInRupees">Enter price of item in Rupees</string>
+    <string name="title_activity_discription_of_item">DiscriptionOfItemActivity</string>
+    <string name="hintEnterDescriptionOfItem">Enter Description of the Item</string>
+
+
+
+
+    <string name="setText1DescBarbie">1DescBarbie</string>
+    <string name="setText2DescBarbie">2DescBarbie</string>
+    <string name="setText3DescBarbie">3DescBarbie</string>
+    <string name="setText4DescBarbie">4DescBarbie</string>
+    <string name="setText5DescBarbie">5DescBarbie</string>
+
+    <string name="setText1DescBluetooth">setText1DescBluetooth</string>
+    <string name="setText2DescBluetooth">setText2DescBluetooth</string>
+    <string name="setText3DescBluetooth">setTex32DescBluetooth</string>
+    <string name="setText4DescBluetooth">setText4DescBluetooth</string>
+    <string name="setText5DescBluetooth">setText5DescBluetooth</string>
+
+    <string name="setText1DescChildrensFashion">setText1DescChildrensFashion</string>
+    <string name="setText2DescChildrensFashion">setText2DescChildrensFashion</string>
+    <string name="setText3DescChildrensFashion">setText3DescChildrensFashion</string>
+    <string name="setText4DescChildrensFashion">setText4DescChildrensFashion</string>
+    <string name="setText5DescChildrensFashion">setText5DescChildrensFashion</string>
+
+    <string name="setText1DescComputer">setText1DescComputer</string>
+    <string name="setText2DescComputer">setText2DescComputer</string>
+    <string name="setText3DescComputer">setText3DescComputer</string>
+    <string name="setText4DescComputer">setText4DescComputer</string>
+    <string name="setText5DescComputer">setText5DescComputer</string>
+
+    <string name="setText1DescChildrensBooks">setText1DescChildrensBooks</string>
+    <string name="setText2DescChildrensBooks">setText2DescChildrensBooks</string>
+    <string name="setText3DescChildrensBooks">setText3DescChildrensBooks</string>
+    <string name="setText4DescChildrensBooks">setText4DescChildrensBooks</string>
+    <string name="setText5DescChildrensBooks">setText5DescChildrensBooks</string>
+
+    <string name="setText1DescCarToys">setText1DescCarToys</string>
+    <string name="setText2DescCarToys">setText2DescCarToys</string>
+    <string name="setText3DescCarToys">setTex3DescCarToys</string>
+    <string name="setText4DescCarToys">setText4DescCarToys</string>
+    <string name="setText5DescCarToys">setText5DescCarToys</string>
+
+    <string name="setTex1DescCharger">setTex1DescCharger</string>
+    <string name="setTex2DescCharger">setTex2DescCharger</string>
+    <string name="setTex3DescCharger">setTex3DescCharger</string>
+    <string name="setTex4DescCharger">setTex4DescCharger</string>
+    <string name="setTex5DescCharger">setTex5DescCharger</string>
+
+    <string name="setTex1DescFan">setTex1DescFan</string>
+    <string name="setTex2DescFan">setTex2DescFan</string>
+    <string name="setTex3DescFan">setTex3DescFan</string>
+    <string name="setTex4DescFan">setTex4DescFan</string>
+    <string name="setTex5DescFan">setTex5DescFan</string>
+
+    <string name="setTex1DescGentsWatches">setTex1DescGentsWatches</string>
+    <string name="setTex2DescGentsWatches">setTex2DescGentsWatches</string>
+    <string name="setTex3DescGentsWatches">setTex3DescGentsWatches</string>
+    <string name="setTex4DescGentsWatches">setTex4DescGentsWatches</string>
+    <string name="setTex5DescGentsWatches">setTex5DescGentsWatches</string>
+
+    <string name="setTex1DescHeadsets">setTex1DescHeadsets</string>
+    <string name="setTex2DescHeadsets">setTex2DescHeadsets</string>
+    <string name="setTex3DescHeadsets">setTex3DescHeadsets</string>
+    <string name="setTex4DescHeadsets">setTex4DescHeadsets</string>
+    <string name="setTex5DescHeadsets">setTex5DescHeadsets</string>
+
+    <string name="setTex1DescHeadphones">setTex1DescHeadphones</string>
+    <string name="setTex2DescHeadphones">setTex1DescHeadphones</string>
+    <string name="setTex3DescHeadphones">setTex1DescHeadphones</string>
+    <string name="setTex4DescHeadphones">setTex1DescHeadphones</string>
+    <string name="setTex5DescHeadphones">setTex1DescHeadphones</string>
+
+    <string name="setTex1DescHomeTheater">setTex1DescHomeTheater</string>
+    <string name="setTex2DescHomeTheater">setTex2DescHomeTheater</string>
+    <string name="setTex3DescHomeTheater">setTex3DescHomeTheater</string>
+    <string name="setTex4DescHomeTheater">setTex4DescHomeTheater</string>
+    <string name="setTex5DescHomeTheater">setTex5DescHomeTheater</string>
+
+    <string name="setTex1DescHardDisks">setTex1DescHardDisks</string>
+    <string name="setTex2DescHardDisks">setTex1DescHardDisks</string>
+    <string name="setTex3DescHardDisks">setTex1DescHardDisks</string>
+    <string name="setTex4DescHardDisks">setTex1DescHardDisks</string>
+    <string name="setTex5DescHardDisks">setTex1DescHardDisks</string>
+    <string name="textViewDescription">DESCRIPTION</string>
+    <string name="textViewDESC1">DESC 1</string>
+    <string name="textViewDESC2">DESC 2</string>
+    <string name="textViewDESC3">DESC 3</string>
+    <string name="textViewDESC4">DESC 4</string>
+    <string name="textViewDESC5">DESC 5</string>
+    <string name="buttonSubmitInDescriptionActivity">SUBMIT</string>
+    <string name="textViewCheckDescription">CHECK DESCRIPTION</string>
+    <string name="title_activity_list_of_item_customer">ListOfItemCustomerActivity</string>
+    <string name="imageViewForListDesignedActivity">Image View For List Designed Activity</string>
+    <string name="textViewRs">Rs. -</string>
+    <string name="textView100rs">100.00</string>
+    <string name="textViewNameOfItemInDesignActivity">Name Of Item fetched from database an set to the text view</string>
+    <string name="textViewBrandOfItemInDesignActivity">Brand Of Item</string>
+    <string name="title_activity_item_details">ItemDetailsActivity</string>
+    <string name="title_activity_item_details_customer">ItemDetailsCustomerActivity</string>
+    <string name="title_activity_item_details_retailer">ItemDetailsRetailerActivity</string>
+    <string name="textViewDesc">DESCRIPTION :-</string>
+    <string name="descTextView">Desc Text View</string>
+    <string name="ItemName">Name Of The Item</string>
+    <string name="textViewPrice">Price Of Item</string>
+    <string name="price">price</string>
+    <string name="textViewArea">Area</string>
+    <string name="textViewAreaOfRetailer">Area Of Retailer</string>
+    <string name="textViewMakeCallToRetailer">Call\t Retailer</string>
+    <string name="textViewNumberOfRetailer">Number Of Retailer</string>
+    <string name="imageView">Image View</string>
+    <string name="textAddToCart">ADD TO CART</string>
+    <string name="textCall">Call</string>
+    <string name="textViewBrandOfItem">Brand Of The Item</string>
+    <string name="textDescriptionOfItem">Description of Item</string>
+    <string name="textViewUpdate">UPDATE</string>
+    <string name="textViewdescriptionOfItem">Description of Item</string>
+    <string name="textViewDelete">DELETE</string>
+    <string name="textUpdate">UPDATE</string>
+    <string name="textAddItem">ADD ITEM</string>
+    <string name="hintNameOfItem">Enter the name of the Item</string>
+    <string name="hintEnterArea">Enter Your Area</string>
+    <string name="title_activity_profile_information">ProfileInformation</string>
+    <string name="textViewNo">8237395973</string>
+    <string name="textProfile">PROFILE</string>
+    <string name="textid">ID</string>
+    <string name="texxtname">Pratik Mhatre</string>
+    <string name="textEmail">mhatrepratik11@gmail.com</string>
+    <string name="textRePass">retailer password</string>
+    <string name="textBirth">11-07-1995</string>
+    <string name="textAlibag">Alibag</string>
+    <string name="textViewForID">ID</string>
+
+
+</resources>

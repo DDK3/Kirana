@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pratik.kirana.RetailerLoginForm"
+    tools:showIn="@layout/activity_retailer_login_form">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewLoginHeading"
+        style="@style/textViewLoginPages"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/textViewLoginPageHeading" />
+
+    <EditText
+        android:id="@+id/editTextUsernameRetailer"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textViewLoginHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="@string/hintUsernameRetailer"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#330019" />
+
+    <EditText
+        android:id="@+id/editTextPasswordRetailer"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextUsernameRetailer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="@string/hintPasswordRetailer"
+        android:inputType="textPassword"
+        android:textColorHint="#330019" />
+
+    <Button
+        android:id="@+id/buttonLoginRetailer"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/editTextPasswordRetailer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_style"
+        android:text="@string/buttonLoginRetailer"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textViewNewToKirana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLoginRetailer"
+        android:layout_alignLeft="@id/editTextUsernameRetailer"
+        android:layout_alignStart="@id/editTextUsernameRetailer"
+        android:layout_marginTop="10dp"
+        android:text="@string/textViewNewToKirana"
+        android:textColor="#330019"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textViewSignUpRetailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLoginRetailer"
+        android:layout_marginTop="10dp"
+        android:text="@string/textViewSignUpRetailer"
+        android:textColor="#330019"
+        android:layout_alignRight="@id/editTextUsernameRetailer"
+        android:layout_alignEnd="@id/editTextUsernameRetailer"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imageViewOnLoginPageRetailer"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/i6"
+        android:layout_below="@id/textViewNewToKirana"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/imageViewKirana" />
+    </RelativeLayout>
+</ScrollView>
